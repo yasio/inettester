@@ -31,13 +31,13 @@ The CocosCreator demo project with test case tcp,udp,kcp
    以下简称: ${CREATOR_ROOT} 或 %CREATOR_ROOT%
  
  
- 1. 编译支持yasio的simulator
-   a. 首先将预览由浏览器切换为模拟器
+ 1. 编译支持yasio的simulator  
+   1.1. 首先将预览由浏览器切换为模拟器  
     在Creator安装目录搜索simulator.sln, 打开 
     ${CREATOR_ROOT}\resources\cocos2d-x\tools\simulator\frameworks\runtime-src\proj.win32  
-   b. 拷贝yasio/yasio文件夹到${CREATOR_ROOT}\resources\cocos2d-x\external\sources目录下:  
-   c. 将yasio/bindings/yasio_jsb20.cpp加入工程编译  
-   d. 编译simulator
+   1.2. 拷贝yasio/yasio文件夹到${CREATOR_ROOT}\resources\cocos2d-x\external\sources目录下:  
+   1.3. 将yasio/bindings/yasio_jsb20.cpp加入工程编译  
+   1.4. 编译simulator
     编译完成后将${CREATOR_ROOT}\resources\cocos2d-x\tools\simulator\frameworks\runtime-src\proj.win32\Debug.win32\simulator.exe拷贝到
      ${CREATOR_ROOT}\resources\cocos2d-x\simulator\win32目录下  
    
