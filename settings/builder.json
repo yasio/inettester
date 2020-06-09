@@ -1,0 +1,60 @@
+{
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "packageName": "org.cocos2d.inettester",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "appKey": "",
+  "appSecret": "",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": true,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.inettester",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait",
+    "zip": false
+  },
+  "startScene": "df608aa5-5fd1-4a95-b6b4-bc98bb30d8f8",
+  "title": "inettester",
+  "webOrientation": "landscape",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "e1a22842-c8a5-4d",
+  "zipCompressJs": true,
+  "android": {
+    "packageName": "org.cocos2d.inettester"
+  },
+  "ios": {
+    "packageName": "org.cocos2d.inettester"
+  },
+  "mac": {
+    "packageName": "org.cocos2d.inettester"
+  },
+  "win32": {},
+  "appBundle": false
+}

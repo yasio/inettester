@@ -1,0 +1,49 @@
+{
+  "cocos-analytics": {
+    "appID": "13798",
+    "appSecret": "959b3ac0037d0f3c2fdce94f8421a9b2",
+    "channel": "",
+    "enable": false,
+    "version": ""
+  },
+  "collision-matrix": [
+    [
+      true
+    ]
+  ],
+  "design-resolution-height": 960,
+  "design-resolution-width": 640,
+  "excluded-modules": [
+    "3D Physics/cannon.js",
+    "3D Physics/Builtin",
+    "3D Particle"
+  ],
+  "fit-height": true,
+  "fit-width": true,
+  "group-list": [
+    "default"
+  ],
+  "simulator-orientation": false,
+  "simulator-resolution": {
+    "height": 640,
+    "width": 960
+  },
+  "start-scene": "df608aa5-5fd1-4a95-b6b4-bc98bb30d8f8",
+  "use-customize-simulator": false,
+  "use-project-simulator-setting": false,
+  "last-module-event-record-time": 1576925057138,
+  "assets-sort-type": "name",
+  "facebook": {
+    "enable": false,
+    "appID": "",
+    "live": {
+      "enable": false
+    },
+    "audience": {
+      "enable": false
+    }
+  },
+  "migrate-history": [
+    "cloud-function"
+  ]
+}
