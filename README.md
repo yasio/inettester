@@ -3,10 +3,10 @@ The CocosCreator demo project with test case tcp,udp,kcp
 
 
 # yasio简介
-1. yasio是一个小巧的支持win,linux,android,ios,uwp等平台的多路io复用模型异步socket库
-2. yasio同时基于时间轮盘算法实现高精度计时器, 计时器在yasio的io_service线程调度
-3. yasio GitHub地址: https://github.com/yasio/yasio
-4. yasio 官方群: 829884294
+ - yasio是一个小巧的支持win,linux,android,ios,uwp等平台的多路io复用模型异步socket库
+ - yasio同时基于时间轮盘算法实现高精度计时器, 计时器在yasio的io_service线程调度
+ - yasio GitHub地址: https://github.com/yasio/yasio
+ - yasio 官方群: 829884294
 
 ## 接下来我们一步一步开始集成到CocosCreator使用
 注意yasio是c++库，因此是不支持web的，如果您的游戏仅发布原生平台，则可放心使用
