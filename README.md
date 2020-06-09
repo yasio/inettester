@@ -19,12 +19,10 @@ The CocosCreator demo project with test case tcp,udp,kcp
     pushd D:\work\opensources\yasio
     git submodule update --init
  
-## 本教程将展示TCP, UDP, KCP通讯， 服务端也均有yasio来开，并且部署到公网主机，地址: test.yasio.org， 端口分别为:
+## 本教程将展示TCP, UDP, KCP通讯， 服务端也均有yasio来开，并且部署到公网主机，地址: test.yasio.org， 为简单起见，三个都是echo server, 端口分别为:
 - TCP: 50001
 - UDP: 50002
 - KCP: 50003
-为简单起见，三个都是echo server
- 
 
 ## 步骤
  - 首先用CocosCreator创建一个HelloWorld工程, 项目名称: inettester, 这里已经建好，并且简单拼好了界面，js代码也写好了  
@@ -34,14 +32,14 @@ The CocosCreator demo project with test case tcp,udp,kcp
  
  
  1. 编译支持yasio的simulator
-   1). 首先将预览由浏览器切换为模拟器
-    在Creator安装目录搜索simulator.sln, 打开
-    ${CREATOR_ROOT}\resources\cocos2d-x\tools\simulator\frameworks\runtime-src\proj.win32
-   2). 拷贝yasio/yasio文件夹到${CREATOR_ROOT}\resources\cocos2d-x\external\sources目录下:
-   3). 将yasio/bindings/yasio_jsb20.cpp加入工程编译
-   4). 编译simulator
-   5). 编译完成后将${CREATOR_ROOT}\resources\cocos2d-x\tools\simulator\frameworks\runtime-src\proj.win32\Debug.win32\simulator.exe拷贝到
-     ${CREATOR_ROOT}\resources\cocos2d-x\simulator\win32目录下
+   a. 首先将预览由浏览器切换为模拟器
+    在Creator安装目录搜索simulator.sln, 打开 
+    ${CREATOR_ROOT}\resources\cocos2d-x\tools\simulator\frameworks\runtime-src\proj.win32  
+   b. 拷贝yasio/yasio文件夹到${CREATOR_ROOT}\resources\cocos2d-x\external\sources目录下:  
+   c. 将yasio/bindings/yasio_jsb20.cpp加入工程编译  
+   d. 编译simulator
+    编译完成后将${CREATOR_ROOT}\resources\cocos2d-x\tools\simulator\frameworks\runtime-src\proj.win32\Debug.win32\simulator.exe拷贝到
+     ${CREATOR_ROOT}\resources\cocos2d-x\simulator\win32目录下  
    
    以上步骤完成，模拟器就集成好了yasio，就可以进行开发调试了
     
