@@ -45,4 +45,5 @@ The CocosCreator demo project with test case tcp,udp,kcp
     
  2. 集成到工程, 同编译模拟器方法类似
 
+## 基于creator-2.3.4编译好的模拟器，请从release下载，注意，模拟器是vs2019编译的，可能需要安装vs2019 vc运行库
  
