@@ -11,8 +11,8 @@ The CocosCreator demo project with test case tcp,udp,kcp
 ## 接下来我们一步一步开始集成到CocosCreator使用
 注意yasio是c++库，因此是不支持web的，如果您的游戏仅发布原生平台，则可放心使用
 
-1. 在Cocos官网下载安装CocosCreator， 这里我用CocosCreator 2.3.3版本
-2.  确保以安装git-windows，下载yasio-3.33.0-rc8或者GitHub最新版，我这里将yasio代码down到D:\work\opensources目录
+1. 在Cocos官网下载安装CocosCreator， 这里我用CocosCreator 2.3.4版本
+2.  确保以安装git-windows，下载yasio GitHub master，我这里将yasio代码down到D:\work\opensources目录
     pushd D:\work\opensources
     git clone https://github.com/yasio/yasio
 3. 如果要使用kcp还需要在
