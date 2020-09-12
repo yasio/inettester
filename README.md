@@ -20,9 +20,9 @@ The CocosCreator demo project with test case tcp,udp,kcp
     git submodule update --init
  
 ## 本教程将展示TCP, UDP, KCP通讯， 服务端也均有yasio来开，并且部署到公网主机，地址: test.yasio.org， 为简单起见，三个都是echo server, 端口分别为:
-- TCP: 50001
-- UDP: 50002
-- KCP: 50003
+- TCP: 5001
+- UDP: 5002
+- KCP: 5003
 
 ## 步骤
  - 首先用CocosCreator创建一个HelloWorld工程, 项目名称: inettester, 这里已经建好，并且简单拼好了界面，js代码也写好了  
